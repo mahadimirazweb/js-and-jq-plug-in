@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js and jq</title>
+    <link rel="icon" href="image/myfav.png">
+    <!--fonts link-->
+    <!--css link-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ex-1:counter plug in</h1>
+       <div class="row">
+         <div id="bord" class=" text-center col-lg-4">
+            <h1>done project</h1>
+            <h2 class="counter">30,000</h2>
+        </div>
+         <div id="bord" class=" text-center col-lg-4">
+            <h1>done project</h1>
+            <h2 class="counter">30,000</h2>
+        </div>
+         <div id="bord" class=" text-center col-lg-4">
+            <h1>done project</h1>
+            <h2 class="counter">30,000</h2>
+         </div> 
+         </div>   
+            <hr>
+        <h1>ex-2:countimer plug in</h1>
+          <div class="timer">00:00:00</div> 
+          <p>
+            <button class="btn btn-primary" onclick="$('.timer').countimer('start')" id="start">Start</button>
+            <button class="btn btn-danger" onclick="$('.timer').countimer('stop')" id="stop">Stop</button>
+            <button class="btn btn-success" onclick="$('.timer').countimer('resume')" id="resume">Resume</button>
+          </p> 
+     
+    </div>
+        
+    <script src="js/jquery.min.js"></script>
+    <script src="vendor/js/moment.min.js"></script>
+    <script src="vendor/js/ez.countimer.min.js"></script>
+    <script src="vendor/js/waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
