@@ -1,1 +1,1 @@
-# js-and-jq-plug-in
+https://mahadimirazweb.github.io/js-and-jq-plug-in/
